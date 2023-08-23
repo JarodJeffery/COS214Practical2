@@ -12,7 +12,7 @@ class testDecorator : public testable{
         testBed getInternalTestBed();
         void setInternalTestBed(testBed internalTestBed);
     private: 
-        testBed internalTestBed;
+        testBed internalTestBed;  
 };
 
 #endif
