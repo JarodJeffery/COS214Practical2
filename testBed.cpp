@@ -5,9 +5,12 @@ testBed::testBed()
 {
 }
 
-testBed::testBed(test test1)
+testBed::testBed(test test1, int h, double w, float b)
 {
     this->test1 = test1;
+    height = h;
+    weight = w;
+    bend = b;
 }
 
 test testBed::getTest()

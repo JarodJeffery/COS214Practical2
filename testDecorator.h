@@ -8,11 +8,12 @@
 using namespace std;
 class testDecorator : public testable{
     public:
-        testDecorator(test internalTestBed);
+        testDecorator(){};
+        testDecorator(test internalTestBed, int h, double w, float b);
         testBed getInternalTestBed();
         void setInternalTestBed(testBed internalTestBed);
     private: 
-        testBed internalTestBed;  
+        testBed internalTestBed;
 };
 
 #endif

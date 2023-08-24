@@ -3,9 +3,9 @@
 
 using namespace std;
 
-testDecorator::testDecorator(test internalTestBed)
+testDecorator::testDecorator(test internalTestBed, int h, double w, float b)
 {
-    testBed tb(internalTestBed);
+    testBed tb(internalTestBed, h, w, b);
     this->internalTestBed = tb;
 }
 
