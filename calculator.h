@@ -6,10 +6,11 @@
 using namespace std;
 class calculator{
     public:
+        calculator(){};
         calculator(string input);
         string getInputString();
         void setInputString(string input);
-        virtual string performCalculation() const =0;
+        virtual string performCalculation() =0;
     private: 
         string inputString;
 };

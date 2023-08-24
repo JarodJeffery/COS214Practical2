@@ -8,6 +8,7 @@
 using namespace std;
 class afterTest : public testDecorator{
     public:
+        afterTest(){};
         afterTest(testBed internalTestBed);
     private:
         testBed after;

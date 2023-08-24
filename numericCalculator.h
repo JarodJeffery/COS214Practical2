@@ -8,6 +8,10 @@ using namespace std;
 class numericCalculator: public calculator{
     public:
         numericCalculator();
-        int performCalculation();
+        numericCalculator(int h, double w, float b);
+        string performCalculation();
+        int height;
+        double weight;
+        float bend; 
 };
 #endif

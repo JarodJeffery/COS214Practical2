@@ -9,7 +9,11 @@ using namespace std;
 class test{
     public:
         test();
-        bool executeTest();
+        test(int h, double w, float b);
+        int height;
+        double weight;
+        float bend; 
+        virtual bool executeTest();
 };
 
 #endif

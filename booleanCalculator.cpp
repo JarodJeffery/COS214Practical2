@@ -4,7 +4,7 @@ booleanCalculator::booleanCalculator()
 {
 }
 
-bool booleanCalculator::performCalculation()
+string booleanCalculator::performCalculation()
 {
     return false;
 }

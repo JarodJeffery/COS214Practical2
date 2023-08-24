@@ -8,6 +8,6 @@ using namespace std;
 class booleanCalculator: public calculator{
     public:
         booleanCalculator();
-        bool performCalculation();
+        string performCalculation();
 };
 #endif
