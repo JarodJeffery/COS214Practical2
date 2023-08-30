@@ -4,8 +4,7 @@
 #include"testBed.h"
 #include "beforeTest.h"
 
-
-beforeTest::beforeTest(testBed internalTestBed)
+beforeTest::beforeTest()
 {
-    before = internalTestBed;
 }
+

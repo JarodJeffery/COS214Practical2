@@ -3,10 +3,12 @@
 
 using namespace std;
 
-testDecorator::testDecorator(test internalTestBed, int h, double w, float b)
+testDecorator::testDecorator(test internalTestBed)
 {
-    testBed tb(internalTestBed, h, w, b);
-    this->internalTestBed = tb;
+}
+
+testDecorator::testDecorator()
+{
 }
 
 testBed testDecorator::getInternalTestBed()

@@ -15,3 +15,6 @@ void calculator::setInputString(string input)
     inputString = input;
 }
 
+calculator::~calculator()
+{
+}

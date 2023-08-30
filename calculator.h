@@ -11,6 +11,7 @@ class calculator{
         string getInputString();
         void setInputString(string input);
         virtual string performCalculation() =0;
+        virtual ~calculator();
     private: 
         string inputString;
 };

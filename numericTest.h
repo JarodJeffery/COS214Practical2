@@ -8,8 +8,11 @@
 using namespace std;
 class numericTest : public test{
     public:
-        numericTest();
+        numericTest(numericCalculator nc);
         bool executeTest();
+
+    private: 
+        numericCalculator nc;
 };
 
 #endif

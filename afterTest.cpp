@@ -5,7 +5,6 @@
 #include "afterTest.h"
 
 
-afterTest::afterTest(testBed internalTestBed)
+afterTest::afterTest()
 {
-    after = internalTestBed;
 }

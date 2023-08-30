@@ -6,11 +6,8 @@
 #include"testBed.h"
 
 using namespace std;
-class beforeTest : public testDecorator{
+class beforeTest{
     public:
-        beforeTest(){};
-        beforeTest(testBed internalTestBed);
-    private:
-        testBed before;
+        beforeTest();
 };
 #endif

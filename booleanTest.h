@@ -8,9 +8,10 @@
 using namespace std;
 class booleanTest : public test{
     public:
+        booleanTest(booleanCalculator bc);
         bool executeTest();
     private: 
-        
+         booleanCalculator nc;
 };
 
 #endif

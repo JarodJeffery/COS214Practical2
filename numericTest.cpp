@@ -4,12 +4,16 @@
 #include "numericCalculator.h"
 #include "numericTest.h"
 
-numericTest::numericTest()
+numericTest::numericTest(numericCalculator nc)
 {
+    this->nc = nc;
 }
 
 bool numericTest::executeTest()
 {
-    numericCalculator nc(height, weight, bend);
+    string result = nc.performCalculation();
+    if(result == "true"){
+        return true;
+    }
     return false;
 }

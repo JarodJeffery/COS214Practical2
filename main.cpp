@@ -10,6 +10,9 @@
 #include"numericCalculator.h"
 
 int main(){
-
+    numericCalculator nc("10 + 10 ");
+    cout<<nc.performCalculation();
+    booleanCalculator bc("true AND false ");
+    cout<<bc.performCalculation();
     return 0;
 }

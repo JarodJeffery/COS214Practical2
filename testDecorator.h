@@ -6,10 +6,11 @@
 #include"testBed.h"
 
 using namespace std;
+
 class testDecorator : public testable{
     public:
-        testDecorator(){};
-        testDecorator(test internalTestBed, int h, double w, float b);
+        testDecorator();
+        testDecorator(test internalTestBed);
         testBed getInternalTestBed();
         void setInternalTestBed(testBed internalTestBed);
     private: 
